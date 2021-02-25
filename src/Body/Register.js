@@ -57,7 +57,7 @@ class Register extends Component{
             
                   
                         <div class="d-flex justify-content-center links">
-                            <a href="/login">Account Created!!! <b>Go To Login</b></a>
+                            <a href="/login">Account Created!!! <b>Go To Login</b> </a>
                         </div>
                     </div>
                 </div>
