@@ -3,7 +3,7 @@
     height: auto;
   }
   .logo{
-      height: 50px;
+      height: 55px;
   }
   .navbar-light .navbar-nav .nav-link {
     color:white;
@@ -13,7 +13,7 @@
 .navbar-light .navbar-brand {
     color: white;
     padding-right: inherit;
-    margin-left: -7%;
+    margin-left: -6%;
 }
 .navbar-expand-lg {
     flex-flow: row nowrap;
@@ -29,7 +29,7 @@ body,
 		}
         
         .user_card {
-        height: 440px;
+        height: 450px;
         width: 350px;
         margin: 15%;
         background: #c7bd37c4;
@@ -59,11 +59,13 @@ body,
         border-radius: 60%;
         
     }
+   
     a {
     color: #2600ffd5;
     text-decoration: none;
     background-color: transparent;
 }
+
     .form_container {
         margin-top: 100px;
     }
@@ -93,3 +95,4 @@ body,
     .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
         background-color: #c0392b !important;
     }
+    

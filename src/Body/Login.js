@@ -1,56 +1,76 @@
-import React, { Component } from 'react'
+import React, { Component, state, loginCustomer } from 'react'
+import axios from 'axios';
 
 class Login extends Component{
+    state ={
+        email : "",
+        password : "",
+    }
+    loginCustomer = (e)=>{
+        e.preventDefault();
+        const data ={
+            email : this.state.email,
+            password : this.state.password
+        }
+        axios.post("http://localhost:90/customers/login",data)
+        .then(response=>{
+            console.log(response);
+        })
+        .catch()
+    }
     render(){
         return(
-            <div class="container h-100">
+            <div className="container h-100">
                  
-            <div class="d-flex justify-content-center h-100">
-                <div class="user_card">
-                    <div class="d-flex justify-content-center">
-                        <div class="brand_logo_container">
+            <div className="d-flex justify-content-center h-100">
+                <div className="user_card">
+                    <div className="d-flex justify-content-center">
+                        <div className="brand_logo_container">
                             
-                            <img src="images/tripPlanner.png" class="brand_logo" alt="Logo"></img>
-                            <div class="input-group mb-3"></div>
-                            <h3><b>Login Here</b></h3>
+                            <img src="images/tripPlanner.png" className="brand_logo" alt="Logo"></img>
+                            <div className="input-group mb-3"></div>
+                            <h6>Welcome to Site! Please login</h6>
                             
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center form_container">
-                        <form>
+                    <div className="d-flex justify-content-center form_container">
+                        <form onSubmit={this.loginCustomer}>
                         
-                            <div class="input-group mb-3">
-                                <div class="input-group-append">
-                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <div className="input-group mb-3">
+                                <div className="input-group-append">
+                                    <span className="input-group-text"><i className="fas fa-user"></i></span>
                                 </div>
-                                <input type="email" name="" class="form-control input_user"  placeholder="Email"></input>
+                                <input type="email" name="" className="form-control input_user" value={this.state.email}  
+                                 onChange={(event)=>{this.setState({email:event.target.value})}}
+                                placeholder="Email"></input>
                             </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-append">
-                                    <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            <div className="input-group mb-3">
+                                <div className="input-group-append">
+                                    <span className="input-group-text"><i className="fas fa-key"></i></span>
                                 </div>
-                                <input type="password" name="" class="form-control input_pass"  placeholder="Password"/>
+                                <input type="password" name="" className="form-control input_pass" value={this.state.password}
+                                onChange={(event)=>{this.setState({password:event.target.value})}}
+                                placeholder="Password"/>
                             </div>
-                            <div class="form-group">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="customControlInline"/>
-                                    <label class="custom-control-label" for="customControlInline">Remember me</label>
+                            <div className="form-group">
+                                <div className="custom-control custom-checkbox">
+                                    <input type="checkbox" className="custom-control-input" id="customControlInline"/>
+                                    <label className="custom-control-label">Remember me</label>
                                 </div>
                             </div>
-                                <div class="d-flex justify-content-center mt-3 login_container">
-                                    
-                                <a href="/destinations" class="ml-2"> 
-                                <button type="button" name="button" class="btn login_btn">Login</button> 
-                                </a>
+                                <div className="d-flex justify-content-center mt-3 login_container">
+                                    <a href="/destinations" className="ml-2"> 
+                                    <button type="submit" value="send" name="button" className="btn login_btn">Login</button> 
+                                    </a>
                                 </div>
                         </form>
                     </div>
             
-                    <div class="mt-4">
-                        <div class="d-flex justify-content-center links">
-                            Don't have an account? <a href="/register" class="ml-2"><b>Register</b></a>
+                    <div className="mt-4">
+                        <div className="d-flex justify-content-center links">
+                            Don't have an account? <a href="/register" className="ml-2"><b>Register</b></a>
                         </div>
-                        <div class="d-flex justify-content-center links">
+                        <div className="d-flex justify-content-center links">
                             <a href="https://accounts.google.com/signin/v2/recoveryidentifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Forgot your password?</a>
                         </div>
                     </div>
