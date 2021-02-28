@@ -1,10 +1,10 @@
-import React, { Component, state, loginCustomer } from 'react'
+import React, { Component, state, loginCustomer,} from 'react'
 import axios from 'axios';
 
 class Login extends Component{
     state ={
         email : "",
-        password : "",
+        password : ""
     }
     loginCustomer = (e)=>{
         e.preventDefault();

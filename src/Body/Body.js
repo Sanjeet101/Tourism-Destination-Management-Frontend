@@ -6,9 +6,6 @@ import Destinations from './Destination';
 import About  from './AboutUs';
 import Contact  from './Contact';
 import Blog from './Blog';
-
-
-
 import {Route} from 'react-router-dom';
 
 

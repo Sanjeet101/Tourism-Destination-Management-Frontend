@@ -80,9 +80,10 @@ class Register extends Component{
                             </div>
                           
                                 <div className="d-flex justify-content-center mt-3 login_container">
-                                <a href="/login"><button type="submit" value="send" name="button" className="btn login_btn">Register</button>
+                                <a href="/login">
+                                    <button type="submit" value="send" className="btn login_btn">Register</button>
                                 </a>
-                         
+                        
                        </div>
                         </form>
                     </div>
