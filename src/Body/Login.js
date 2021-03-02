@@ -65,7 +65,6 @@ class Login extends Component{
                                 </div>
                         </form>
                     </div>
-            
                     <div className="mt-4">
                         <div className="d-flex justify-content-center links">
                             Don't have an account? <a href="/register" className="ml-2"><b>Register</b></a>
