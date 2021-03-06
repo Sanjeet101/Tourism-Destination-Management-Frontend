@@ -1,11 +1,10 @@
-
 b, strong {
     font-weight: bolder;
     letter-spacing: 1px;
     position: relative;
     font-weight: 600;
     text-align: center;
-    color: black;
+    color: white;
 }
 b, strong {
     font-weight: bolder;
@@ -50,7 +49,6 @@ body {
   }
   .navbar-light .navbar-nav .nav-link {
     color:white;
-    background-color: ;
    
     
 }
@@ -63,7 +61,7 @@ body {
     flex-flow: row nowrap;
     justify-content: flex-start;
     height: 8%;
-    background-color: rgba(112, 163, 36, 0.678);
+    background-color: rgba(119, 172, 41, 0.473);
 }
 body,
 		html {
@@ -71,6 +69,7 @@ body,
             background-repeat: no-repeat;
             background-attachment: fixed;  
             background-size: cover;
+            margin-top: 0%;
         }
         
         .user_card {

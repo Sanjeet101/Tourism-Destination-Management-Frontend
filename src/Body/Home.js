@@ -37,7 +37,7 @@ class Home extends Component{
             <p class="card-text"> Pokhara is one of the most scenic and exciting valley in Nepal. Pokhara valley is the ‘Jewel of the mid-west’, second major tourist sport in Nepal but the favorite of tourists from around the globe</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.tripadvisor.com/Tourism-g293891-Pokhara_Gandaki_Zone_Western_Region-Vacations.html" class="btn btn-primary">Find Out More!</a>
+            <a href="/blog" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ class Home extends Component{
             <p class="card-text">Chitwan was a dense forest ruled by the Tharu God/King Chitrasen Baba. He used to worship in the deep forest and ruled over his state. Chitwan, still known as Dense Forest.</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.tripadvisor.com/Attractions-g1927709-Activities-Chitwan_District_Narayani_Zone_Central_Region.html" class="btn btn-primary">Find Out More!</a>
+            <a href="/blog"  class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -61,50 +61,49 @@ class Home extends Component{
             <p class="card-text">Lumbini is the Buddha's birthplace, one of the world's most important spiritual sites and attracts Buddhist pilgrims from around the world. It is located in southern Nepal, near the Indian border. </p>
           </div>
           <div class="card-footer">
-            <a href="https://www.tripadvisor.com/Tourism-g424940-Lumbini_Lumbini_Zone_Western_Region-Vacations.html" class="btn btn-primary">Find Out More!</a>
+            <a href="/blog" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="https://transporthubnepal.com/wp-content/uploads/2020/02/lumbini.jpg" alt=""/>
+          <img class="card-img-top" src="https://nepaltraveller.com/images/main/1544178305.sidetrackimagemithila,_janakpur,_landscape__landmark.jpg" alt=""/>
           <div class="card-body">
-            <h4 class="card-title">Lumbini</h4>
-            <p class="card-text">Lumbini is the Buddha's birthplace, one of the world's most important spiritual sites and attracts Buddhist pilgrims from around the world. It is located in southern Nepal, near the Indian border. </p>
+            <h4 class="card-title">Janakpur</h4>
+            <p class="card-text">Janakpurdham or Janakpur is a sub-metropolitan city in Dhanusa District, Province No. 2, Nepal. The city is a hub for religious and cultural tourism</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.tripadvisor.com/Tourism-g424940-Lumbini_Lumbini_Zone_Western_Region-Vacations.html" class="btn btn-primary">Find Out More!</a>
+            <a href="/blog" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="https://transporthubnepal.com/wp-content/uploads/2020/02/lumbini.jpg" alt=""/>
+          <img class="card-img-top" src="https://www.laser-travel.com/wp-content/uploads/2020/04/Ranimahal-1024x603.jpg" alt=""/>
           <div class="card-body">
-            <h4 class="card-title">Lumbini</h4>
-            <p class="card-text">Lumbini is the Buddha's birthplace, one of the world's most important spiritual sites and attracts Buddhist pilgrims from around the world. It is located in southern Nepal, near the Indian border. </p>
+            <h4 class="card-title">Palpa and Rani-Mahal</h4>
+            <p class="card-text">Palpa District is a district of Lumbini Zone, administrative headquarters of Palpa district is Tansen, situated in Western Development Region of Nepal.</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.tripadvisor.com/Tourism-g424940-Lumbini_Lumbini_Zone_Western_Region-Vacations.html" class="btn btn-primary">Find Out More!</a>
+            <a href="/blog" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
          <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="https://transporthubnepal.com/wp-content/uploads/2020/02/lumbini.jpg" alt=""/>
+          <img class="card-img-top" src="https://english.onlinekhabar.com/wp-content/uploads/2016/05/vedetar-pic.jpg" alt=""/>
           <div class="card-body">
-            <h4 class="card-title">Lumbini</h4>
-            <p class="card-text">Lumbini is the Buddha's birthplace, one of the world's most important spiritual sites and attracts Buddhist pilgrims from around the world. It is located in southern Nepal, near the Indian border. </p>
+            <h4 class="card-title">Bhedetar</h4>
+            <p class="card-text">Bhedetar is a beautiful place that attracts number of tourists to enjoy beautiful views, greenery, climate, especially in summer since it is always cool here.</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.tripadvisor.com/Tourism-g424940-Lumbini_Lumbini_Zone_Western_Region-Vacations.html" class="btn btn-primary">Find Out More!</a>
+            <a href="/blog" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
     </div>
     </div>
-
-        )
-    }
+    )
+  }
 }
 export default Home;
