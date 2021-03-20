@@ -15,17 +15,12 @@ class Home extends Component{
         <p> Travel Planners help clients make travel arrangements. They typically work in an office environment, making reservations, booking flights, and arranging transport. Travel Planners may also visit holiday resorts and destinations to help clients make informed decisions.</p>
         <a class="btn btn-primary" href="/login">Login To Book Your Destination</a>
       </div>
-     
-    </div>
-
-
-    
-    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      </div>
+      <div class="card text-white bg-secondary my-5 py-4 text-center">
       <div class="card-body">
         <p class="text-white m-0"></p>
       </div>
     </div>
-
     <h5 class="font-weight-light"><b>Top Destinations</b></h5>
     <h1 class="font-weight-light"><b>Popular Destinations</b></h1>
    <div class="row">

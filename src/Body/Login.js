@@ -29,7 +29,7 @@ class Login extends Component{
                             
                             <img src="images/tripPlanner.png" className="brand_logo" alt="Logo"></img>
                             <div className="input-group mb-3"></div>
-                            <h6>Welcome to Site! Please login</h6>
+                            <h6>Welcome to Trip Planner! Please login</h6>
                             
                         </div>
                     </div>
