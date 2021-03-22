@@ -126,6 +126,84 @@ class Destination extends Component{
           </div>
         </div>
       </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxCrvuKid1-LoxQRgQ9ZKHrqQ7oCEy7z7Q-A&usqp=CAU" alt=""/>
+          <div class="card-body">
+            <h4 class="card-title">kavre</h4>
+            <p class="card-text">3 Days <p class="card-text">Hotel<p class="card-text">Travelling and Worship
+            <p class="card-text"><h4>From Rs.2000</h4></p></p></p></p>
+          </div>
+          <div class="card-footer">
+            <a href="/book" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://i2.wp.com/nepalensis.com/wp-content/uploads/2020/04/Dharan.jpg?fit=1024%2C682&ssl=1" alt=""/>
+          <div class="card-body">
+            <h4 class="card-title">Dharan</h4>
+            <p class="card-text">7 Days <p class="card-text">Hotel<p class="card-text">Travelling
+            <p class="card-text"><h4>From Rs.15,000</h4></p></p></p></p>
+          </div>
+          <div class="card-footer">
+            <a href="/book" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Phidim.jpg" alt=""/>
+          <div class="card-body">
+            <h4 class="card-title">Pachthar</h4>
+            <p class="card-text">5 Days <p class="card-text">Hotel<p class="card-text">Travelling
+            <p class="card-text"><h4>From Rs.10,000</h4></p></p></p></p>
+          </div>
+          <div class="card-footer">
+            <a href="/book" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/08/d6.jpg" alt=""/>
+          <div class="card-body">
+            <h4 class="card-title">Chandragiri</h4>
+            <p class="card-text">2 Days <p class="card-text">Hotel<p class="card-text">Travelling and Worship
+            <p class="card-text"><h4>From Rs.5000</h4></p></p></p></p>
+          </div>
+          <div class="card-footer">
+            <a href="/book" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://www.altitudehimalaya.com/wp-content/uploads/2020/02/Sisneri-swimming-pool.jpg" alt=""/>
+          <div class="card-body">
+            <h4 class="card-title">Sisneri</h4>
+            <p class="card-text">3 Days <p class="card-text">Hotel<p class="card-text">Trekking and Camping
+            <p class="card-text"><h4>From Rs.8000</h4></p></p></p></p>
+          </div>
+          <div class="card-footer">
+            <a href="/book" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://subhayatra.com/wp-content/uploads/2017/12/Patan.jpg" alt=""/>
+          <div class="card-body">
+            <h4 class="card-title">Patan</h4>
+            <p class="card-text">2 Days <p class="card-text">Hotel<p class="card-text">Travelling and Worship
+            <p class="card-text"><h4>From Rs.4000</h4></p></p></p></p>
+          </div>
+          <div class="card-footer">
+            <a href="/book" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
         )
