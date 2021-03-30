@@ -7,6 +7,7 @@ import About  from './AboutUs';
 import Contact  from './Contact';
 import Book from './Book';
 import Blog from './Blog';
+import Profile from './Profile';
 import {Route} from 'react-router-dom';
 
 
@@ -23,6 +24,7 @@ class Body extends Component{
                 <Route path="/blog" exact component={Blog}/>
                 <Route path="/book" exact component={Book}/>
                 <Route path="/contact" exact component={Contact}/>
+                <Route path="/profile" exact component={Profile}/>
                 </div>
         )
     }

@@ -1,10 +1,11 @@
 import React, { Component, state, loginCustomer,} from 'react'
 import axios from 'axios';
+import {Redirect} from 'react-router-dom';
 
 class Login extends Component{
     state ={
         email : "",
-        password : ""
+        password : "",
     }
     loginCustomer = (e)=>{
         e.preventDefault();
@@ -16,25 +17,23 @@ class Login extends Component{
         .then(response=>{
             console.log(response);
         })
+        
         .catch()
     }
     render(){
         return(
             <div className="container h-100">
-                 
-            <div className="d-flex justify-content-center h-100">
+                <div className="d-flex justify-content-center h-100">
                 <div className="user_card">
                     <div className="d-flex justify-content-center">
                         <div className="brand_logo_container">
-                            
                             <img src="images/tripPlanner.png" className="brand_logo" alt="Logo"></img>
                             <div className="input-group mb-3"></div>
                             <h6>Welcome to Trip Planner! Please login</h6>
-                            
-                        </div>
-                    </div>
-                    <div className="d-flex justify-content-center form_container">
-                        <form onSubmit={this.loginCustomer}>
+                            </div>
+                            </div>
+                            <div className="d-flex justify-content-center form_container">
+                                <form onSubmit={this.loginCustomer}>
                         
                             <div className="input-group mb-3">
                                 <div className="input-group-append">
@@ -59,7 +58,7 @@ class Login extends Component{
                                 </div>
                             </div>
                                 <div className="d-flex justify-content-center mt-3 login_container">
-                                    <a href="/destinations" className="ml-2"> 
+                                    <a href="/profile" className="ml-2"> 
                                     <button type="submit" value="send" name="button" className="btn login_btn">Login</button> 
                                     </a>
                                 </div>

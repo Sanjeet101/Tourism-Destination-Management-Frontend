@@ -28,8 +28,8 @@ p {
     color: white;
 }
 .btn-primary {
-    color: rgba(209, 212, 28, 0.856);
-    background-color: #406a97;
+    color: rgba(255, 255, 255, 0.856);
+    background-color: brown;
     border-color: #007bff;
 }
 .img-fluid {
