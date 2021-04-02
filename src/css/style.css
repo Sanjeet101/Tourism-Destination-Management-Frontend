@@ -1,4 +1,4 @@
-/* h1 {
+h1 {
 	font-size:2em;
 	font-weight:700;
 	display:flex;
@@ -131,7 +131,7 @@ b {
     .blog-hero {
         padding-bottom:60%;
     }
-} */
+}
 
 b, strong {
     font-weight: bolder;
