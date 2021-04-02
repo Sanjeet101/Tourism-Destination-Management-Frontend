@@ -21,7 +21,7 @@ h4 {
 	font-size:1.4em;
 }
 
-a {
+/* a {
 	text-decoration:none;
 }
 p {
@@ -30,7 +30,7 @@ p {
     font-size:1em;
     font-weight: 500;
     
-}
+} */
 
 .blog-post {
     width:80%;
@@ -45,7 +45,7 @@ p {
     width:100%;
     height:0;
     padding-bottom:30%;
-    background:url('https://images.unsplash.com/photo-1450101215322-bf5cd27642fc?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') 20% 70% no-repeat ;
+    background:url('https://images.squarespace-cdn.com/content/v1/53ecd1bde4b0a6f9524254f8/1573226984139-K0T3P76RO56YE3SETDVJ/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/popular-places-must-visit-sites-nepal-lumbini.jpg?format=2500w') 20% 70% no-repeat ;
     background-size: cover;
     position: relative;
 }
@@ -83,7 +83,7 @@ article {
     height: 0;
     margin:50px auto 60px;
     padding-bottom:35%;
-    background:url('https://images.unsplash.com/photo-1446797376004-9352dfc9f789?crop=entropy&fit=crop&fm=jpg&h=1000&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') center center;
+    background:url('https://www.goglides.com/blog/content/images/2020/05/kanyam-ilam.jpg') center center;
     background-size:cover;
     position:relative;
 }
@@ -92,7 +92,7 @@ article {
     position:absolute;
     bottom:-30px;
     font-size:.9em;
-    color:#888;
+    color:rgb(255, 238, 6);
     left:4%;
 }
 
