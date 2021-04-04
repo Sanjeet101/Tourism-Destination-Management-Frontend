@@ -18,7 +18,21 @@ class Book extends Component {
             <input type="text" name="username" placeholder="Username" required="" />
           </div>
 
-         
+          <div class="field-agileinfo-spc form-w3-agile-text2">
+            <input type="text" name="destination" placeholder="Destination" required="" />
+          </div>
+          <div class="field-agileinfo-spc form-w3-agile-text2">
+            <input type="text" name="no_of_people" placeholder="No of People" required="" />
+          </div>
+          <div class="field-agileinfo-spc form-w3-agile-text2">
+            <input type="text" name="departure" placeholder="Departure" required="" />
+          </div>
+          <div class="field-agileinfo-spc form-w3-agile-text2">
+            <input type="text" name="arrival" placeholder="Arrival" required="" />
+          </div>
+          <div class="field-agileinfo-spc form-w3-agile-text2">
+            <input type="text" name="Phone no" placeholder="Phone Number" required="" />
+          </div>
           <div class="clear"></div>
           <input type="submit" value="Submit" />
           <input type="reset" value="Clear Form" />
