@@ -32,7 +32,7 @@ class Login extends Component {
         // redirect
         if (this.state.loginChk === true) {
             return <Redirect to='/destinations' />
-        }else{}
+        }
         if (localStorage.getItem('token')) {
             return <Redirect to='/destinations' />
         }
