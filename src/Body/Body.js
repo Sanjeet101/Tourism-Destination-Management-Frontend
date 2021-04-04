@@ -5,6 +5,7 @@ import Register from './Register'
 import Destinations from './Destination';
 import About  from './AboutUs';
 import Contact  from './Contact';
+import Admin from './Admin';
 import Book from './Book';
 import Blog from './Blog';
 import Profile from './Profile';
@@ -24,6 +25,7 @@ class Body extends Component{
                 <Route path="/blog" exact component={Blog}/>
                 <Route path="/book" exact component={Book}/>
                 <Route path="/contact" exact component={Contact}/>
+                <Route path="/admin" exact component={Admin}/>
                 <Route path="/profile" exact component={Profile}/>
                 </div>
         )

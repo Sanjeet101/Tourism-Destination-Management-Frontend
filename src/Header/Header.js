@@ -37,6 +37,8 @@ class Header extends Component {
                             <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/blog"><b>Blog</b></a></li>
                             <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/contact"><b>Contact</b></a></li>
                             <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/login"><b>Login</b></a></li>
+                            <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/admin"><b>Admin</b></a></li>
+                            
                             {/* <li className="nav-item"><a className="nav-link js-scroll-trigger" href="/logout"><b>Logout</b></a></li> */}
                         </ul>
                     </div>
