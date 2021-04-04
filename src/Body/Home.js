@@ -50,7 +50,7 @@ class Home extends Component{
       </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
-          <img class="card-img-top" src="https://transporthubnepal.com/wp-content/uploads/2020/02/lumbini.jpg" alt=""/>
+          <img class="card-img-top" src="https://risingnepaldaily.com/photos/1/lumbini_Visit.jpg" alt=""/>
           <div class="card-body">
             <h4 class="card-title">Lumbini</h4>
             <p class="card-text">Lumbini is the Buddha's birthplace, one of the world's most important spiritual sites and attracts Buddhist pilgrims from around the world. It is located in southern Nepal, near the Indian border. </p>
