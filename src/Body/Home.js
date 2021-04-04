@@ -21,7 +21,7 @@ class Home extends Component{
         <p class="text-white m-0"></p>
       </div>
     </div>
-    <h5 class="font-weight-light"><b>Top Destinations</b></h5>
+
     <h1 class="font-weight-light"><b>Popular Destinations</b></h1>
    <div class="row">
       <div class="col-md-4 mb-5">

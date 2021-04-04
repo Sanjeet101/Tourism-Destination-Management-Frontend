@@ -10,6 +10,7 @@ class Footer extends Component{
                 <span class="credit">Created By <a href="">Sanjeet Pandey</a> | </span>
                 <span class="far fa-copyright"></span><span></span>
                 <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+                
               </center>
             </div>
           </footer>
