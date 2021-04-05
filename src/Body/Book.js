@@ -110,13 +110,13 @@ class Book extends Component {
                                 </div>
 
                                 <div className="d-flex justify-content-center mt-3 login_container">
-                                   
-                                        <button type="submit" value="send" className="btn login_btn">Submit</button>
-                          
+
+                                    <button type="submit" value="send" className="btn login_btn">Submit</button>
+
                                 </div>
                             </form>
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
