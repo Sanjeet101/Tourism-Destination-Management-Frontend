@@ -29,13 +29,13 @@ class Login extends Component {
     }
 
     render() {
-        // redirect
-        if (this.state.loginChk === true) {
-            return <Redirect to='/destinations' />
-        }
-        if (localStorage.getItem('token')) {
-            return <Redirect to='/destinations' />
-        }
+        // // redirect
+        // if (this.state.loginChk === true) {
+        //     return <Redirect to='/destinations' />
+        // }
+        // if (localStorage.getItem('token')) {
+        //     return <Redirect to='/destinations' />
+        // }
         return (
             <div className="container h-100">
                 <div className="d-flex justify-content-center h-100">

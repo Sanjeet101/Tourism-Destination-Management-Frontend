@@ -632,3 +632,6 @@ h2 {
   font-weight: 300 !important;
   color: black;
 }
+.text-muted {
+  color: rgba(81, 255, 0, 0.712) !important;
+}
