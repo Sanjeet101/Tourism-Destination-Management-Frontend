@@ -33,7 +33,7 @@ class AboutUs extends Component{
       <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img src="https://cdn.kimkim.com/files/a/article_images/images/d5cc9aca2dc584f568fabc81913bb9e9d0e664d1/big-77419293c3986c0d2aade3c8f58fcb80.jpg" alt="" class="img-fluid mb-4 mb-lg-0"/></div>
     </div>
     <div class="row align-items-center">
-      <div class="col-lg-5 px-5 mx-auto"><img src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/4bf4b9a35eedbe35e99505004357d82717302971/medium-b5ca426d9b0b6bfb51269b3a3bfbffd3.jpg" alt="" class="img-fluid mb-4 mb-lg-0"/></div>
+      <div class="col-lg-5 px-5 mx-auto"><img src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/4bf4b9a35eedbe35e99505004357d82717302971/medium-b5ca426d9b0b6bfb51269b3a3bfbffd3.jpg" alt="" class="img-fluid mb-4 mb-lg-3"/></div>
       <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
         <h2 class="font-weight-light">Enjoy Your Moment</h2>
         <p class="font-italic text-muted mb-4">Enjoy your travel and if you have any queries reagarding to our sites, you can leave message thorugh contact form.</p><a href="#" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
@@ -46,7 +46,7 @@ class AboutUs extends Component{
   <div class="container py-5">
     <div class="row mb-4">
       <div class="col-lg-5">
-        <h2 class="display-4 font-weight-light">Our team</h2>
+        <h1 class="display-4 font-weight-light"><b>Our team</b></h1>
         <p class="font-italic text-muted">We are ready for any help for customer reagarding this travel site.</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ class AboutUs extends Component{
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
@@ -69,12 +69,12 @@ class AboutUs extends Component{
       
       <div class="col-xl-3 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://res.cloudinary.com/mhmd/image/upload/v1556834130/avatar-3_hzlize.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"/>
-          <h5 class="mb-0">Sanjeet Pandey</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+          <h5 class="mb-0">Sanjeet Pandey</h5><span class="small text-uppercase text-muted">Desinger and Developer</span>
           <ul class="social mb-0 list-inline mt-3">
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
@@ -88,7 +88,7 @@ class AboutUs extends Component{
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>
@@ -102,7 +102,7 @@ class AboutUs extends Component{
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
           </ul>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { Component, state, sendCustomerData } from 'react'
 import axios from 'axios';
+import 'font-awesome/css/font-awesome.min.css';
 
 class Book extends Component {
     state = {
@@ -15,14 +16,14 @@ class Book extends Component {
     sendCustomerData = (e) => {
         e.preventDefault();
         const data = {
-            fullname: this.state.name,
+            fullname: this.state.fullname,
             email: this.state.email,
             username: this.state.username,
             destination: this.state.destination,
             no_of_people: this.state.no_of_people,
             departure: this.state.departure,
             arrival: this.state.arrival,
-            phone: this.state.phoonr
+            phone: this.state.phone
         }
         axios.post("http://localhost:90/booking/submit", data)
             .then()
@@ -45,7 +46,7 @@ class Book extends Component {
                             <form onSubmit={this.sendCustomerData}>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.fullname}
                                         onChange={(event) => { this.setState({ fullname: event.target.value }) }}
@@ -54,7 +55,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-envelope"></i></span>
                                     </div>
                                     <input type="email" name="" className="form-control input_user" value={this.state.email}
                                         onChange={(event) => { this.setState({ email: event.target.value }) }}
@@ -62,7 +63,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.username}
                                         onChange={(event) => { this.setState({ username: event.target.value }) }}
@@ -70,7 +71,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-key"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-map-marker"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_pass" value={this.state.destination}
                                         onChange={(event) => { this.setState({ destination: event.target.value }) }}
@@ -78,7 +79,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.no_of_people}
                                         onChange={(event) => { this.setState({ no_of_people: event.target.value }) }}
@@ -86,7 +87,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-bus"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.departure}
                                         onChange={(event) => { this.setState({ departure: event.target.value }) }}
@@ -94,7 +95,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i class="fa fa-home"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.arrival}
                                         onChange={(event) => { this.setState({ arrival: event.target.value }) }}
@@ -102,7 +103,7 @@ class Book extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i class="fa fa-phone"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.phone}
                                         onChange={(event) => { this.setState({ phone: event.target.value }) }}

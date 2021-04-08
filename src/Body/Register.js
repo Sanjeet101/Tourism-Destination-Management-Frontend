@@ -1,5 +1,6 @@
 import React, { Component, state, sendCustomerData } from 'react'
 import axios from 'axios';
+import 'font-awesome/css/font-awesome.min.css';
 
 class Register extends Component {
     state = {
@@ -39,7 +40,7 @@ class Register extends Component {
                             <form onSubmit={this.sendCustomerData}>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.name}
                                         onChange={(event) => { this.setState({ name: event.target.value }) }}
@@ -48,7 +49,7 @@ class Register extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.username}
                                         onChange={(event) => { this.setState({ username: event.target.value }) }}
@@ -56,7 +57,7 @@ class Register extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i class="fa fa-envelope-square"></i></span>
                                     </div>
                                     <input type="email" name="" className="form-control input_user" value={this.state.email}
                                         onChange={(event) => { this.setState({ email: event.target.value }) }}
@@ -64,7 +65,7 @@ class Register extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-key"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-key"></i></span>
                                     </div>
                                     <input type="password" name="" className="form-control input_pass" value={this.state.password}
                                         onChange={(event) => { this.setState({ password: event.target.value }) }}
@@ -72,7 +73,7 @@ class Register extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="text" name="" className="form-control input_user" value={this.state.accountType}
                                         onChange={(event) => { this.setState({ accountType: event.target.value }) }}

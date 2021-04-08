@@ -1,6 +1,7 @@
 import React, { Component, state, inputHandler1212, submitUser } from "react";
 import axios from 'axios';
 import { Redirect } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
 class Login extends Component {
     state = {
         email: '',
@@ -29,13 +30,13 @@ class Login extends Component {
     }
 
     render() {
-        // // redirect
-        // if (this.state.loginChk === true) {
-        //     return <Redirect to='/destinations' />
-        // }
-        // if (localStorage.getItem('token')) {
-        //     return <Redirect to='/destinations' />
-        // }
+        // redirect
+        if (this.state.loginChk === true) {
+            return <Redirect to='/destinations' />
+        }
+        if (localStorage.getItem('token')) {
+            return <Redirect to='/destinations' />
+        }
         return (
             <div className="container h-100">
                 <div className="d-flex justify-content-center h-100">
@@ -52,7 +53,7 @@ class Login extends Component {
 
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-user"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-user"></i></span>
                                     </div>
                                     <input type="email" name="email" className="form-control input_user" value={this.state.email}
                                         onChange={this.inputHandler1212}
@@ -60,7 +61,7 @@ class Login extends Component {
                                 </div>
                                 <div className="input-group mb-3">
                                     <div className="input-group-append">
-                                        <span className="input-group-text"><i className="fas fa-key"></i></span>
+                                        <span className="input-group-text"><i className="fa fa-key"></i></span>
                                     </div>
                                     <input type="password" name="password" className="form-control input_pass" value={this.state.password}
                                         onChange={this.inputHandler1212}

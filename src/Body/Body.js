@@ -7,11 +7,13 @@ import About from './AboutUs';
 import Contact from './Contact';
 import Admin from './Admin';
 import Book from './Book';
+import PlaceShowAll from './PlaceShowAll';
 import Blog from './Blog';
 import Payment from './Payment'
 import Profile from './Profile';
 import { Route } from 'react-router-dom';
-
+import PlaceSingleData from './PlaceSingleData';
+import UpdatePlace from './UpdatePlace';
 
 class Body extends Component {
     render() {
@@ -29,6 +31,10 @@ class Body extends Component {
                 <Route path="/admin" exact component={Admin} />
                 <Route path="/payment" exact component={Payment} />
                 <Route path="/profile" exact component={Profile} />
+                <Route path='/placesingledata/:id'exact component={PlaceSingleData}/>
+                <Route path='/placeshowall' exact component={PlaceShowAll} />
+                <Route path='/placeupdate/:id' exact component={UpdatePlace} />
+                <Route path='/update/:id' exact component={Admin} />
             </div>
         )
     }

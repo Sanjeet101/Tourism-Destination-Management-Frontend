@@ -48,7 +48,7 @@ class Contact extends Component {
                   onChange={(event) => { this.setState({ subject: event.target.value }) }} placeholder="Subject" /></div>
               <div class="form-group"><label class="c1">Message:</label>
                 <input class="form-control c message" name="message" value={this.state.message}
-                  onChange={(event) => { this.setState({ message: event.target.value }) }} placeholder="We Listen To You" /></div>
+                  onChange={(event) => { this.setState({ message: event.target.value }) }} placeholder="Give us feedback" /></div>
               <div class="form-group"><button class="btn btn-primary btn-lg" type="submit">Send</button></div>
             </form>
           </div>
