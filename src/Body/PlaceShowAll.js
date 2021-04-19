@@ -24,8 +24,7 @@ class PlaceShowAll extends Component {
   }
 
   deletePlace = (pid) => {
-    axios
-      .delete('http://localhost:90/place/delete/' + pid, this.state.config)
+    axios.delete('http://localhost:90/place/delete/' + pid, this.state.config)
       .then((response) => {
         console.log(response);
       })
@@ -36,7 +35,7 @@ class PlaceShowAll extends Component {
   render() {
     return (
       <Container>
-        
+
         <div className='PlaceUpdate'>
           <Row>
             {this.state.place.map((place) => {
@@ -49,8 +48,10 @@ class PlaceShowAll extends Component {
                     />
                     <Card.Body>
                       <Card.Title>{place.placename}</Card.Title>
-                      
-                      <a href={'/placeupdate/' + place._id}>Update</a>
+                      <Card.Subtitle>{place.placedesc}</Card.Subtitle>
+                      <Card.Body>{place.placeprice}</Card.Body>
+                      <a href={'/placeupdate/' + place._id} className="btn btn-danger">Update</a>
+                      <button className="btn btn-danger" onClick={this.deletePlace.bind(this, place._id)}>Delete</button>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -58,7 +59,6 @@ class PlaceShowAll extends Component {
             })}
           </Row>
         </div>
-      
       </Container>
     );
   }

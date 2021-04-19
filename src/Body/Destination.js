@@ -56,8 +56,8 @@ class Destination extends Component {
                       <h4 class='card-title'>{place.placename}</h4>
                       <p class='card-text'>{place.placeprice}</p>
                       <button class='btn btn-outline-primary'>
-                        <a href={'/placesingledata/' + place._id}>
-                          Click here and Book
+                        <a href={'/placesingledata/' + place._id}className="btn btn-danger">
+                          Click here and Get More Info.
                           </a>
                       </button>
                     </div>

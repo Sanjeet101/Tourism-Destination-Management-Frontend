@@ -44,7 +44,7 @@ class Contact extends Component {
 
                 <small class="form-text text-danger">Remember to enter a valid email address.</small></div>
               <div class="form-group"><label class="c2">Subject:</label>
-                <input class="form-control c" type="email" name="subject" value={this.state.subject}
+                <input class="form-control c" type="text" name="subject" value={this.state.subject}
                   onChange={(event) => { this.setState({ subject: event.target.value }) }} placeholder="Subject" /></div>
               <div class="form-group"><label class="c1">Message:</label>
                 <input class="form-control c message" name="message" value={this.state.message}

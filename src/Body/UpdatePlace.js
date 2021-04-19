@@ -54,6 +54,7 @@ class UpdatePlace extends Component {
             <Row className='insert-place'>
                 <Col className='i-place'>
                     <Form>
+                        <h1>Update Here</h1>
                         <Form.Group controlId='formBasicName'>
                             <Form.Control
                                 type='text'

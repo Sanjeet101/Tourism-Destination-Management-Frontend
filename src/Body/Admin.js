@@ -108,32 +108,5 @@ class Admin extends Component {
         );
     }
 }
-{
-    /* <div>
-  <form>
-      <p>Placename</p>
-      <input type="text" name="placename"
-      value={this.state.placename}
-      onChange={this.changeHandler}
-      />
-  
-  <p>Placeprice</p>
-      <input type="text" name="placeprice"
-      value={this.state.placeprice}
-      onChange={this.changeHandler}
-      />
-  </form>
-  </div> */
-}
-
 export default Admin;
 
-  // deletePlace = (pid) => {
-  // axios.delete('http://localhost:/place/delete' + pid)
-  // .then((response)=>{
-  //     console.log(response)
-  // })
-  // .catch((err)=>{
-  //     console.log(err.response)
-  // })
-  // }
