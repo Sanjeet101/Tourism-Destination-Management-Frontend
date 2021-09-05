@@ -1,10 +1,10 @@
-Title
+Title:
 Research on Tourism Destination Management with Experiences, Efforts and Challenges in Nepal
 
-Introduction
+Introduction:
 The tourism management system allows the user of the system access all the details such as weather, location, events, etc. The main purpose is to help tourism application to manage customer and hotels etc. The system can also be used for both professional and business trips. The proposed system maintains centralized repository to make necessary travel arrangements and to retrieve information easily.
 
-Features
+Features:
 •	Login
 •	Sign up
 •	Booking
@@ -17,7 +17,7 @@ Features
 •	Update
 •	View
 
-Tools used in the project
+Tools used in the project:
 •	Visual studio code
 •	MongoDB compass
 •	Node.js
