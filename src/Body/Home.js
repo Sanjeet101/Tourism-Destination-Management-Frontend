@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 
-
 class Home extends Component {
   render() {
     return (
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
-            <img class="img-fluid rounded mb-4 mb-lg-0" src="https://www.welcomenepal.com/uploads/slider/everest-tkelly.jpeg" alt="" />
+            <img class="img-fluid rounded mb-4 mb-lg-0" src="https://www.yestd.com.np/wp-content/uploads/2019/01/banner3-1.jpg" alt="" />
           </div>
 
 
